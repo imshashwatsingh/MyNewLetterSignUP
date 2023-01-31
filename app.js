@@ -42,7 +42,7 @@ app.post("/", function (req, res) {
 
   const options = {
     method: "POST",
-    auth: "shashwat007:2b47139351a44f06309a4b8a8b24b2e8-us9",
+    auth: "shashwat007:d7b1fe85314924e773ae85666788040d-us9",
   };
 
   const request = https.request(url, options, function (response) {
@@ -70,7 +70,7 @@ app.listen(process.env.PORT || 3000, function () {
 });
 
 // api key
-// 2b47139351a44f06309a4b8a8b24b2e8-us9
+// d7b1fe85314924e773ae85666788040d-us9
 
 // audience id
 //  f90b5ad078
